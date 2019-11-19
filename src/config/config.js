@@ -1,0 +1,4 @@
+export default {
+    NAVBAR_SCROLLED: 150,
+    SCREEN_WIDTH_NAVBAR_REDUCED: 900
+}

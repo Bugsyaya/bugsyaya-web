@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 1px 1px 17px 0px rgba(0, 0, 0, 0.05);
+
+    .active {
+        text-decoration-line: underline;
+    }
+
+    a {
+        text-decoration: none;
+        color: #272F66;
+        &:hover {
+            text-decoration-line: underline;
+        }
+    }
+}

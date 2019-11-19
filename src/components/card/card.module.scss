@@ -1,0 +1,42 @@
+.card {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.2);
+    width: 25%;
+    margin: 1em;
+    padding: 1em;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    a {
+        text-decoration: none;
+        color: #272F66;
+    }
+
+    .title{
+        font-weight: 900;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .createdAt {
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .description {
+        font-weight: 300;
+        margin: 1.5em;
+    }
+
+    .tags {
+        display: flex;
+        flex-wrap: wrap;
+        bottom: 0;
+        right: 0;
+        padding-bottom: 2em;
+        padding-right: 2em;
+        position: absolute;
+    }
+}
