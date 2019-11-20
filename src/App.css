@@ -16,7 +16,7 @@
 }
 
 .App-header {
-  background-image: url('./asset/superDoudou.svg');
+  background-image: url('./asset/superDoudou.jpg');
   min-height: 95vh;
   display: flex;
   flex-direction: column;
