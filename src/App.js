@@ -9,6 +9,8 @@ import OtherProject from './pages/OtherProject'
 
 import { ApolloProvider } from '@apollo/react-hooks';
 import { Router } from '@reach/router';
+import Contact from './pages/Contact';
+import OSSProject from './pages/OSSProject';
 
 function App() {
 
@@ -22,7 +24,9 @@ function App() {
         <Router>
           <SchoolProject path='/school-projects'/>
           <PersoProject path='/perso-projects'/>
+          <OSSProject path='/oss-projects'/>
           <OtherProject path='/other-projects'/>
+          <Contact path='/contact'/>
         </Router>
       </div>
     </ApolloProvider>

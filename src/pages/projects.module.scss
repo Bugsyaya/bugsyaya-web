@@ -1,6 +1,60 @@
-#projects {
+.projects {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    div, textarea {
+        margin-bottom: 1em;
+    }
+}
+
+.orgaTitle {
+    margin-top: 0;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactContainer {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 2fr;
+}
+
+#avatar {    
+    height: 20%;
+    margin: 1em;
+}
+
+#orgaContainer {
+    display: flex;
+    max-height: 200px;
+    img {
+        height: 15%;
+    }
+}
+
+#orga {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
 }
